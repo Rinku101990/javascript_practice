@@ -50,3 +50,28 @@ const myFunction = function () {
 // Objects and Web Events
 
 // Question - Javascript is statatically typed or dynamically typed ?
+
+// ++++++++++++++++++++++++++++++++++++++++ Memory Allocation and release +++++++++++++++
+
+// Stack Memory (Primitive Datatype)
+// Heap Memory(Non-Primitive Datatype)
+
+let myFunctionName = "rinkuvishwakarma";
+
+let anotherFunctionName = myFunctionName;
+
+anotherFunctionName = "vishwakarma";
+
+console.log(anotherFunctionName);
+
+let userOne = {
+  email: "user@google.com",
+  upi: "user@ybl",
+};
+
+let userTwo = userOne;
+
+userTwo.email = "user2@google.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
